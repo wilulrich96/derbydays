@@ -4,14 +4,6 @@ body
 	background-color:rgb(2,51,91);
 	color:rgb(2,51,91);
 }
-
-#mainContainer
-{
-	padding-top:80px;
-	/*
-	background-color:white;
-	*/
-}
 .navbar
 {
 	background-color:white;
@@ -44,12 +36,15 @@ a{
     height: auto;
 	padding:0px;
 	margin:auto;
-	max-height:435px;
+	max-height:437px;
 
 }
 .light-background
 {
-	color:rgb(247,208,71);
+	opacity:0.7;
+	background-color:black;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 .curved
 {
@@ -61,21 +56,10 @@ a{
 	border-style:solid;
 	background-color:white;
 }
-.carousel-caption
+.main-text
 {
-	
+	padding-left:5%;
+	padding-right:5%;
 }
-/*
-.display-table{
-    display: table;
-    table-layout: fixed;
-}
-
-.display-cell{
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-}
-*/
 
 
