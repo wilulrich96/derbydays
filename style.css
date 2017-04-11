@@ -40,17 +40,16 @@ a{
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img
 {
-	max-width:90%;
-	max-height:440px;
-	/*margin:auto;*/
-	
+    max-width: 100%;
+    height: auto;
+	padding:0px;
 	margin:auto;
+	max-height:435px;
 
 }
-
-#carouselExampleSlidesOnly
+.light-background
 {
-	
+	color:rgb(247,208,71);
 }
 .curved
 {
